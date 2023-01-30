@@ -1,0 +1,113 @@
+//Question 1 // ===> Get all the countries from the Asia continent /region using the Filter function
+
+//==>o/p ['continent : Asia - region : Asia - country : Maldives', 'continent : Asia - region : Asia - country : Pakistan', 'continent : Asia - region : Asia - country : Malaysia', 'continent : Asia - region : Asia - country : Uzbekistan', 'continent : Asia - region : Oceania - country : Christmas Island', 'continent : Asia - region : Asia - country : Singapore', 'continent : Asia - region : Asia - country : Qatar', 'continent : Asia - region : Asia - country : Kazakhstan', 'continent : Asia - region : Africa - country : British Indian Ocean Territory', 'continent : Asia - region : Asia - country : Bahrain', 'continent : Asia - region : Asia - country : India', 'continent : Asia - region : Asia - country : Macau', 'continent : Asia - region : Asia - country : Syria', 'continent : Asia - region : Asia - country : Kyrgyzstan', 'continent : Asia - region : Asia - country : Palestine', 'continent : Asia - region : Asia - country : Taiwan', 'continent : Asia - region : Asia - country : South Korea', 'continent : Asia - region : Asia - country : Iraq', 'continent : Asia - region : Asia - country : Cambodia', 'continent : Asia - region : Oceania - country : Cocos (Keeling) Islands', 'continent : Asia - region : Asia - country : Sri Lanka', 'continent : Asia - region : Asia - country : Israel', 'continent : Asia - region : Asia - country : Tajikistan', 'continent : Asia - region : Asia - country : Azerbaijan', 'continent : Asia - region : Asia - country : Georgia', 'continent : Asia - region : Asia - country : China', 'continent : Asia - region : Asia - country : Thailand', 'continent : Asia - region : Asia - country : Indonesia', 'continent : Asia - region : Asia - country : Turkmenistan', 'continent : Asia - region : Asia - country : Turkey', 'continent : Asia - region : Asia - country : Iran', 'continent : Asia - region : Asia - country : Lebanon', 'continent : Asia - region : Asia - country : Philippines', 'continent : Asia - region : Asia - country : Kuwait', 'continent : Asia - region : Asia - country : Oman', 'continent : Asia - region : Asia - country : Afghanistan', 'continent : Asia - region : Asia - country : Armenia', 'continent : Asia - region : Asia - country : Bangladesh', 'continent : Asia - region : Asia - country : Laos', 'continent : Asia - region : Asia - country : Nepal', 'continent : Asia - region : Asia - country : Myanmar', 'continent : Asia - region : Asia - country : United Arab Emirates', 'continent : Asia - region : Asia - country : Bhutan', 'continent : Asia - region : Asia - country : Jordan', 'continent : Asia - region : Asia - country : Vietnam', 'continent : Asia - region : Asia - country : Brunei', 'continent : Asia - region : Asia - country : Japan', 'continent : Asia - region : Asia - country : Hong Kong', 'continent : Asia - region : Asia - country : Saudi Arabia', 'continent : Asia - region : Asia - country : North Korea', 'continent : Asia - region : Asia - country : Mongolia', 'continent : Asia - region : Asia - country : Yemen']
+
+//Question-2  //  Get all the countries with a population of less than 2 lakhs using Filter function
+
+// ==>o/p(62) ['In Aruba Population is : 106766', 'In Wallis and Futuna Population is : 11750', 'In Åland Islands Population is : 29458', 'In Pitcairn Islands Population is : 56', 'In Seychelles Population is : 98462', 'In French Southern and Antarctic Lands Population is : 400', 'In Christmas Island Population is : 2072', 'In Saint Martin Population is : 38659', 'In Heard Island and McDonald Islands Population is : 0', 'In Antarctica Population is : 1000', 'In Greenland Population is : 56367', 'In British Indian Ocean Territory Population is : 3000', 'In Saint Lucia Population is : 183629', 'In Niue Population is : 1470', 'In Saint Barthélemy Population is : 4255', 'In Grenada Population is : 112519', 'In Isle of Man Population is : 85032', 'In Curaçao Population is : 155014', 'In Dominica Population is : 71991', 'In Faroe Islands Population is : 48865', 'In Montserrat Population is : 4922', 'In Cook Islands Population is : 18100', 'In Bermuda Population is : 63903', 'In San Marino Population is : 33938', 'In Cayman Islands Population is : 65720', 'In Cocos (Keeling) Islands Population is : 544', 'In United States Virgin Islands Population is : 106290', 'In Norfolk Island Population is : 2302', 'In Nauru Population is : 10834', 'In Bouvet Island Population is : 0', 'In Micronesia Population is : 115021', 'In American Samoa Population is : 55197', 'In Anguilla Population is : 13452', 'In Marshall Islands Population is : 59194', 'In Kiribati Population is : 119446', 'In Northern Mariana Islands Population is : 57557', 'In Guam Population is : 168783', 'In Gibraltar Population is : 33691', 'In Vatican City Population is : 451', 'In Jersey Population is : 100800', 'In Tuvalu Population is : 11792', 'In Saint Helena, Ascension and Tristan da Cunha Population is : 53192', 'In Samoa Population is : 198410', 'In Guernsey Population is : 62999', 'In Tonga Population is : 105697', 'In Saint Kitts and Nevis Population is : 53192', 'In Falkland Islands Population is : 2563', 'In Palau Population is : 18092', 'In Turks and Caicos Islands Population is : 38718', 'In British Virgin Islands Population is : 30237', 'In Liechtenstein Population is : 38137', 'In Andorra Population is : 77265', 'In Tokelau Population is : 1411', 'In Sint Maarten Population is : 40812', 'In United States Minor Outlying Islands Population is : 300', 'In Antigua and Barbuda Population is : 97928', 'In Saint Pierre and Miquelon Population is : 6069', 'In Saint Vincent and the Grenadines Population is : 110947', 'In South Georgia Population is : 30', 'In Caribbean Netherlands Population is : 25987', 'In Monaco Population is : 39244', 'In Svalbard and Jan Mayen Population is : 2562']
+
+
+//Question -3 //===>Print the following details name, capital, flag using forEach function
+//==>o/p 🇲🇷 - Mauritania - Nouakchott
+// script.js:39 🇦🇼 - Aruba - Oranjestad
+// script.js:39 🇦🇷 - Argentina - Buenos Aires
+// script.js:39 🇸🇪 - Sweden - Stockholm
+// script.js:39 🇲🇻 - Maldives - Malé
+// script.js:39 🇲🇽 - Mexico - Mexico City
+// script.js:39 🇳🇿 - New Zealand - Wellington
+// script.js:39 🇪🇨 - Ecuador - Quito
+// script.js:39 🇼🇫 - Wallis and Futuna - Mata-Utu
+// script.js:39 🇦🇽 - Åland Islands - Mariehamn
+// script.js:39 🇲🇪 - Montenegro - Podgorica
+// script.js:39 🇵🇰 - Pakistan - Islamabad
+// script.js:39 🇵🇳 - Pitcairn Islands - Adamstown
+// script.js:39 🇿🇲 - Zambia - Lusaka
+// script.js:39 🇸🇨 - Seychelles - Victoria
+// script.js:39 🇲🇾 - Malaysia - Kuala Lumpur
+// script.js:39 🇳🇴 - Norway - Oslo
+// script.js:39 🇺🇿 - Uzbekistan - Tashkent
+// script.js:39 🇻🇺 - Vanuatu - Port Vila
+// script.js:39 🇹🇫 - French Southern and Antarctic Lands - Port-aux-Français
+// script.js:39 🇨🇽 - Christmas Island - Flying Fish Cove
+// script.js:39 🇸🇬 - Singapore - Singapore
+// script.js:39 🇸🇷 - Suriname - Paramaribo
+// script.js:39 🇪🇭 - Western Sahara - El Aaiún
+// script.js:39 🇲🇫 - Saint Martin - Marigot
+// script.js:39 🇨🇷 - Costa Rica - San José
+// script.js:39 🇭🇲 - Heard Island and McDonald Islands - undefined
+// script.js:39 🇮🇪 - Ireland - Dublin
+// script.js:39 🇦🇶 - Antarctica - undefined
+// script.js:39 🇦🇺 - Australia - Canberra
+// script.js:39 🇱🇾 - Libya - Tripoli
+// script.js:39 🇶🇦 - Qatar - Doha
+// script.js:39 🇬🇱 - Greenland - Nuuk
+// script.js:39 🇲🇺 - Mauritius - Port Louis
+// script.js:39 🇰🇿 - Kazakhstan - Nur-Sultan
+// script.js:39 🇮🇴 - British Indian Ocean Territory - Diego Garcia
+// script.js:39 🇦🇱 - Albania - Tirana
+// script.js:39 🇧🇭 - Bahrain - Manama
+// script.js:39 🇵🇬 - Papua New Guinea - Port Moresby
+// script.js:39 🇧🇮 - Burundi - Gitega
+// script.js:39 🇮🇳 - India - New Delhi
+// script.js:39 🇺🇾 - Uruguay - Montevideo
+// script.js:39 🇱🇨 - Saint Lucia - Castries
+// script.js:39 🇧🇧 - Barbados - Bridgetown
+// script.js:39 🇳🇨 - New Caledonia - Nouméa
+// script.js:39 🇱🇻 - Latvia - Riga
+// script.js:39 🇪🇪 - Estonia - Tallinn
+// script.js:39 🇳🇺 - Niue - Alofi
+// script.js:39 🇧🇱 - Saint Barthélemy - Gustavia
+// script.js:39 🇵🇷 - Puerto Rico - San Juan
+// script.js:39 🇬🇩 - Grenada - St. George's
+// script.js:39 🇲🇴 - Macau - undefined
+// script.js:39 🇨🇾 - Cyprus - Nicosia
+// script.js:39 🇮🇲 - Isle of Man - Douglas
+// script.js:39 🇬🇷 - Greece - Athens
+// script.js:39 🇸🇾 - Syria - Damascus
+// script.js:39 🇱🇹 - Lithuania - Vilnius
+// script.js:39 🇨🇼 - Curaçao - Willemstad
+// script.js:39 🇩🇲 - Dominica - Roseau
+// script.js:39 🇳🇪 - Niger - Niamey
+// script.js:39 🇰🇬 - Kyrgyzstan - Bishkek
+// script.js:39 🇹🇹 - Trinidad and Tobago - Port of Spain
+// script.js:39 🇹🇬 - Togo - Lomé
+// script.js:39 🇵🇸 - Palestine - Ramallah,Jerusalem
+// script.js:39 🇲🇬 - Madagascar - Antananarivo
+// script.js:39 🇭🇷 - Croatia - Zagreb
+// script.js:39 🇫🇴 - Faroe Islands - Tórshavn
+// script.js:39 🇭🇹 - Haiti - Port-au-Prince
+// script.js:39 🇲🇸 - Montserrat - Plymouth
+// script.js:39 🇨🇰 - Cook Islands - Avarua
+// script.js:39 🇹🇱 - Timor-Leste - Dili
+
+
+//Question-4 
+
+// //Print the total population of countries using reduce function
+  //==>o/p 7777721563
+
+  //question-5
+  // //Print the country which uses US Dollars as currency.
+
+
+ //==>o/p 
+//  American Samoa
+// script.js:315 Bonaire, Sint Eustatius and Saba
+// script.js:315 British Indian Ocean Territory
+// script.js:315 Virgin Islands (British)
+// script.js:315 Virgin Islands (U.S.)
+// script.js:315 Cambodia
+// script.js:315 Ecuador
+// script.js:315 El Salvador
+// script.js:315 Guam
+// script.js:315 Marshall Islands
+// script.js:315 Micronesia (Federated States of)
+// script.js:315 Northern Mariana Islands
+// script.js:315 Palau
+// script.js:315 Panama
+// script.js:315 Puerto Rico
+// script.js:315 Timor-Leste
+// script.js:315 Turks and Caicos Islands
+// script.js:315 United States of America 
+
+
